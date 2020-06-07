@@ -6,6 +6,7 @@
 
 ```
 git clone https://github.com/Up-2-110H/buy-event.git app-path
+app-path> composer install
 app-path> php yii migrate
 ```
 
