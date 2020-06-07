@@ -22,7 +22,7 @@ class PurchaseController extends Controller
     public $product;
 
     /**
-     * @var int required, product price in dollars (example: --price="5")
+     * @var int required, product price in dollars (example: --price=5)
      */
     public $price;
 
