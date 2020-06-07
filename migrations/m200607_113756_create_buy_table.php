@@ -14,6 +14,7 @@
         {
             $this->createTable('{{%buy}}', [
                 'id' => $this->primaryKey(),
+                'user_id' => $this->integer()->notNull(),
                 'product' => $this->string()->notNull(),
                 'price' => $this->integer()->notNull(),
             ]);
