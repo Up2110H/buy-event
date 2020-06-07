@@ -44,7 +44,8 @@ app-path> php yii migrate
             // Tell Twilio where to POST information about your message.
             // @see https://www.twilio.com/docs/sms/send-messages#monitor-the-status-of-your-message
             //'statusCallback' => 'https://example.com/path/to/callback',      // optional
-        ],```
+        ],
+```
 
 С помощью команды:
 ```
