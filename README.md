@@ -47,6 +47,17 @@ app-path> php yii migrate
         ],
 ```
 
+Электронную почту и номер телефона указываем в файле `/config/params.php`:
+```
+<?php
+
+return [
+    'mail' => 'example@test.com',
+    'phone' => '+123456789',
+];
+
+```
+
 С помощью команды:
 ```
 php yii help command-name
