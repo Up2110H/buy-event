@@ -1,20 +1,20 @@
 {
-  "_readme": [
-    "This file locks the dependencies of your project to a known state",
-    "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-    "This file is @generated automatically"
-  ],
-  "content-hash": "da3a65b110db9f819833ee0e12e43dc8",
-  "packages": [
-    {
-      "name": "bower-asset/bootstrap",
-      "version": "v3.4.1",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/twbs/bootstrap.git",
-        "reference": "68b0d231a13201eb14acd3dc84e51543d16e5f7e"
-      },
-      "dist": {
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "da3a65b110db9f819833ee0e12e43dc8",
+    "packages": [
+        {
+            "name": "bower-asset/bootstrap",
+            "version": "v3.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "68b0d231a13201eb14acd3dc84e51543d16e5f7e"
+            },
+            "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/twbs/bootstrap/zipball/68b0d231a13201eb14acd3dc84e51543d16e5f7e",
                 "reference": "68b0d231a13201eb14acd3dc84e51543d16e5f7e"
@@ -617,168 +617,168 @@
                 }
             ],
             "description": "Symfony polyfill backporting some PHP 7.2+ features to lower PHP versions",
-          "homepage": "https://symfony.com",
-          "keywords": [
-            "compatibility",
-            "polyfill",
-            "portable",
-            "shim"
-          ],
-          "time": "2020-05-12T16:47:27+00:00"
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "time": "2020-05-12T16:47:27+00:00"
         },
-    {
-      "name": "twilio/sdk",
-      "version": "5.42.2",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/twilio/twilio-php.git",
-        "reference": "0cfcb871b18a9c427dd9e8f0ed7458d43009b48a"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/twilio/twilio-php/zipball/0cfcb871b18a9c427dd9e8f0ed7458d43009b48a",
-        "reference": "0cfcb871b18a9c427dd9e8f0ed7458d43009b48a",
-        "shasum": ""
-      },
-      "require": {
-        "php": ">=5.5.0"
-      },
-      "require-dev": {
-        "apigen/apigen": "^4.1",
-        "guzzlehttp/guzzle": "^6.3",
-        "phpunit/phpunit": ">=4.5"
-      },
-      "suggest": {
-        "guzzlehttp/guzzle": "An HTTP client to execute the API requests"
-      },
-      "type": "library",
-      "autoload": {
-        "psr-4": {
-          "Twilio\\": "src/Twilio/"
-        }
-      },
-      "notification-url": "https://packagist.org/downloads/",
-      "license": [
-        "MIT"
-      ],
-      "authors": [
         {
-          "name": "Twilio API Team",
-          "email": "api@twilio.com"
-        }
-      ],
-      "description": "A PHP wrapper for Twilio's API",
-      "homepage": "http://github.com/twilio/twilio-php",
-      "keywords": [
-        "api",
-        "sms",
-        "twilio"
-      ],
-      "time": "2020-02-05T19:55:13+00:00"
-    },
-    {
-      "name": "wadeshuler/yii2-sms",
-      "version": "v1.0.0",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/WadeShuler/yii2-sms.git",
-        "reference": "e9761a2508d3603dec09ffc4a9df20d818590596"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/WadeShuler/yii2-sms/zipball/e9761a2508d3603dec09ffc4a9df20d818590596",
-        "reference": "e9761a2508d3603dec09ffc4a9df20d818590596",
-        "shasum": ""
-      },
-      "require": {
-        "php": ">=5.4.0",
-        "yiisoft/yii2": "~2.0.11"
-      },
-      "type": "yii2-extension",
-      "autoload": {
-        "psr-4": {
-          "wadeshuler\\sms\\": "src"
-        }
-      },
-      "notification-url": "https://packagist.org/downloads/",
-      "license": [
-        "MIT"
-      ],
-      "authors": [
+            "name": "twilio/sdk",
+            "version": "5.42.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twilio/twilio-php.git",
+                "reference": "0cfcb871b18a9c427dd9e8f0ed7458d43009b48a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twilio/twilio-php/zipball/0cfcb871b18a9c427dd9e8f0ed7458d43009b48a",
+                "reference": "0cfcb871b18a9c427dd9e8f0ed7458d43009b48a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "apigen/apigen": "^4.1",
+                "guzzlehttp/guzzle": "^6.3",
+                "phpunit/phpunit": ">=4.5"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "An HTTP client to execute the API requests"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Twilio\\": "src/Twilio/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Twilio API Team",
+                    "email": "api@twilio.com"
+                }
+            ],
+            "description": "A PHP wrapper for Twilio's API",
+            "homepage": "http://github.com/twilio/twilio-php",
+            "keywords": [
+                "api",
+                "sms",
+                "twilio"
+            ],
+            "time": "2020-02-05T19:55:13+00:00"
+        },
         {
-          "name": "Wade Shuler",
-          "email": "wadeshuler@users.noreply.github.com"
-        }
-      ],
-      "description": "This is the base library for providing SMS support in your Yii2 application. You can make your own plugins for SMS providers off this base package. It is not to be directly used.",
-      "homepage": "https://github.com/wadeshuler/yii2-sms",
-      "keywords": [
-        "sms",
-        "text message",
-        "yii2",
-        "yii2 sms"
-      ],
-      "time": "2019-02-19T06:44:05+00:00"
-    },
-    {
-      "name": "wadeshuler/yii2-sms-twilio",
-      "version": "v1.0.0",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/WadeShuler/yii2-sms-twilio.git",
-        "reference": "ab56cb9d445364f946c3a2b8fc394c06bf851462"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/WadeShuler/yii2-sms-twilio/zipball/ab56cb9d445364f946c3a2b8fc394c06bf851462",
-        "reference": "ab56cb9d445364f946c3a2b8fc394c06bf851462",
-        "shasum": ""
-      },
-      "require": {
-        "php": ">=5.4.0",
-        "twilio/sdk": "^5.11",
-        "wadeshuler/yii2-sms": "~1.0",
-        "yiisoft/yii2": "~2.0.11"
-      },
-      "type": "yii2-extension",
-      "autoload": {
-        "psr-4": {
-          "wadeshuler\\sms\\twilio\\": "src"
-        }
-      },
-      "notification-url": "https://packagist.org/downloads/",
-      "license": [
-        "MIT"
-      ],
-      "authors": [
+            "name": "wadeshuler/yii2-sms",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WadeShuler/yii2-sms.git",
+                "reference": "e9761a2508d3603dec09ffc4a9df20d818590596"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WadeShuler/yii2-sms/zipball/e9761a2508d3603dec09ffc4a9df20d818590596",
+                "reference": "e9761a2508d3603dec09ffc4a9df20d818590596",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "~2.0.11"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "wadeshuler\\sms\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wade Shuler",
+                    "email": "wadeshuler@users.noreply.github.com"
+                }
+            ],
+            "description": "This is the base library for providing SMS support in your Yii2 application. You can make your own plugins for SMS providers off this base package. It is not to be directly used.",
+            "homepage": "https://github.com/wadeshuler/yii2-sms",
+            "keywords": [
+                "sms",
+                "text message",
+                "yii2",
+                "yii2 sms"
+            ],
+            "time": "2019-02-19T06:44:05+00:00"
+        },
         {
-          "name": "Wade Shuler",
-          "email": "wadeshuler@users.noreply.github.com"
-        }
-      ],
-      "description": "A Twilio SMS plugin for Yii2 based off my base package, Yii2 SMS, to make sending SMS messages as easy as emails!",
-      "homepage": "https://github.com/wadeshuler/yii2-sms-twilio",
-      "keywords": [
-        "sms",
-        "text message",
-        "twilio",
-        "yii2",
-        "yii2 sms",
-        "yii2 twilio"
-      ],
-      "time": "2019-02-19T06:59:04+00:00"
-    },
-    {
-      "name": "yiisoft/yii2",
-      "version": "2.0.35",
-      "source": {
-        "type": "git",
-        "url": "https://github.com/yiisoft/yii2-framework.git",
-        "reference": "d42809e4969cdc0adb97197ba32774b3e4cd9e8e"
-      },
-      "dist": {
-        "type": "zip",
-        "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/d42809e4969cdc0adb97197ba32774b3e4cd9e8e",
+            "name": "wadeshuler/yii2-sms-twilio",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WadeShuler/yii2-sms-twilio.git",
+                "reference": "ab56cb9d445364f946c3a2b8fc394c06bf851462"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/WadeShuler/yii2-sms-twilio/zipball/ab56cb9d445364f946c3a2b8fc394c06bf851462",
+                "reference": "ab56cb9d445364f946c3a2b8fc394c06bf851462",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "twilio/sdk": "^5.11",
+                "wadeshuler/yii2-sms": "~1.0",
+                "yiisoft/yii2": "~2.0.11"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "wadeshuler\\sms\\twilio\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Wade Shuler",
+                    "email": "wadeshuler@users.noreply.github.com"
+                }
+            ],
+            "description": "A Twilio SMS plugin for Yii2 based off my base package, Yii2 SMS, to make sending SMS messages as easy as emails!",
+            "homepage": "https://github.com/wadeshuler/yii2-sms-twilio",
+            "keywords": [
+                "sms",
+                "text message",
+                "twilio",
+                "yii2",
+                "yii2 sms",
+                "yii2 twilio"
+            ],
+            "time": "2019-02-19T06:59:04+00:00"
+        },
+        {
+            "name": "yiisoft/yii2",
+            "version": "2.0.35",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-framework.git",
+                "reference": "d42809e4969cdc0adb97197ba32774b3e4cd9e8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/d42809e4969cdc0adb97197ba32774b3e4cd9e8e",
                 "reference": "d42809e4969cdc0adb97197ba32774b3e4cd9e8e",
                 "shasum": ""
             },
@@ -1697,16 +1697,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.6.1",
+            "version": "1.8.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "239400de7a173fe9901b9ac7c06497751f00727a"
+                "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
-                "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/337e3ad8e5716c15f9657bd214d16cc5e69df268",
+                "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268",
                 "shasum": ""
             },
             "require": {
@@ -1719,24 +1719,24 @@
             },
             "require-dev": {
                 "ext-zlib": "*",
-                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+                "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.14 || ^7.5.20 || ^8.5.8 || ^9.3.10"
             },
             "suggest": {
-                "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
+                "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.6-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
-                "psr-4": {
-                    "GuzzleHttp\\Psr7\\": "src/"
-                },
                 "files": [
                     "src/functions_include.php"
-                ]
+                ],
+                "psr-4": {
+                    "GuzzleHttp\\Psr7\\": "src/"
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -1744,12 +1744,33 @@
             ],
             "authors": [
                 {
+                    "name": "Graham Campbell",
+                    "email": "hello@gjcampbell.co.uk",
+                    "homepage": "https://github.com/GrahamCampbell"
+                },
+                {
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
                 },
                 {
+                    "name": "George Mponos",
+                    "email": "gmponos@gmail.com",
+                    "homepage": "https://github.com/gmponos"
+                },
+                {
+                    "name": "Tobias Nyholm",
+                    "email": "tobias.nyholm@gmail.com",
+                    "homepage": "https://github.com/Nyholm"
+                },
+                {
+                    "name": "Márk Sági-Kazár",
+                    "email": "mark.sagikazar@gmail.com",
+                    "homepage": "https://github.com/sagikazarmark"
+                },
+                {
                     "name": "Tobias Schultze",
+                    "email": "webmaster@tubo-world.de",
                     "homepage": "https://github.com/Tobion"
                 }
             ],
@@ -1764,7 +1785,25 @@
                 "uri",
                 "url"
             ],
-            "time": "2019-07-01T23:21:34+00:00"
+            "support": {
+                "issues": "https://github.com/guzzle/psr7/issues",
+                "source": "https://github.com/guzzle/psr7/tree/1.8.5"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/Nyholm",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/guzzlehttp/psr7",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-03-20T21:51:18+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -1814,20 +1853,20 @@
             ],
             "time": "2020-01-17T21:11:47+00:00"
         },
-      {
-        "name": "opis/closure",
-        "version": "3.5.4",
-        "source": {
-          "type": "git",
-          "url": "https://github.com/opis/closure.git",
-          "reference": "1d0deef692f66dae5d70663caee2867d0971306b"
-        },
-        "dist": {
-          "type": "zip",
-          "url": "https://api.github.com/repos/opis/closure/zipball/1d0deef692f66dae5d70663caee2867d0971306b",
-          "reference": "1d0deef692f66dae5d70663caee2867d0971306b",
-          "shasum": ""
-        },
+        {
+            "name": "opis/closure",
+            "version": "3.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opis/closure.git",
+                "reference": "1d0deef692f66dae5d70663caee2867d0971306b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opis/closure/zipball/1d0deef692f66dae5d70663caee2867d0971306b",
+                "reference": "1d0deef692f66dae5d70663caee2867d0971306b",
+                "shasum": ""
+            },
             "require": {
                 "php": "^5.4 || ^7.0"
             },
@@ -1873,7 +1912,7 @@
                 "serialization",
                 "serialize"
             ],
-        "time": "2020-06-07T11:41:29+00:00"
+            "time": "2020-06-07T11:41:29+00:00"
         },
         {
             "name": "phar-io/manifest",
@@ -2704,6 +2743,9 @@
                 "request",
                 "response"
             ],
+            "support": {
+                "source": "https://github.com/php-fig/http-message/tree/master"
+            },
             "time": "2016-08-06T14:39:51+00:00"
         },
         {
@@ -2744,6 +2786,10 @@
                 }
             ],
             "description": "A polyfill for getallheaders.",
+            "support": {
+                "issues": "https://github.com/ralouphie/getallheaders/issues",
+                "source": "https://github.com/ralouphie/getallheaders/tree/develop"
+            },
             "time": "2019-03-08T08:55:37+00:00"
         },
         {
@@ -4580,7 +4626,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-      "php": ">=7.2"
+        "php": ">=7.2"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
 }
